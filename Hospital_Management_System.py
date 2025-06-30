@@ -6,7 +6,7 @@ import mysql.connector
 db_conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="moiz@123",  # 🔐 Change this before shipping — reminder to self
+    password="",  # 🔐 Change this before shipping — reminder to self
     database="hospital_db"
 )
 db_cursor = db_conn.cursor(dictionary=True)
